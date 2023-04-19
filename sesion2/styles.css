@@ -1,0 +1,152 @@
+body {
+  color: rgb(75, 30, 200);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: purple;
+}
+
+h2[name] {
+  color: green;
+}
+
+input[placeholder] {
+  color: green;
+}
+
+input[type~="password"] {
+  color: blue;
+}
+
+a[href="https://kodemia.mx/"]
+{
+  color: hotpink;
+  font-size: large;
+}
+
+a[class~="logo"] {
+  color: brown;
+  font-size: small;
+}
+
+a {
+  color: yellow;
+}
+
+a {
+  color: rgb(92, 168, 60);
+}
+
+#id-h2 {
+  font-size: 18px;
+  color: hotpink;
+  /* herencia de color morado */
+  /* comentario */
+}
+
+.list-selectors {
+  list-style: none;
+}
+
+#main-text .lorem-text {
+  color: hotpink;
+  font: 24px;
+}
+
+.box-absolute-unit {
+  width: 145px;
+  height: 90px;
+  background-color: hotpink;
+  color: green;
+}
+
+.box-padding {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.units__box {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin: 10px;
+  background-color: brown;
+  color: white;
+  border: 1px solid rgb(30, 0, 255);
+  box-sizing: border-box;
+}
+
+.units__box--content {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(134, 132, 53);
+  color: white;
+  border: 1px solid rgb(30, 0, 255);
+  box-sizing: content-box;
+}
+
+.units__box--margin-left {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 1px solid rgb(30, 0, 255);
+  box-sizing: border-box;
+}
+
+.units__box--margin-right {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 1px solid rgb(30, 0, 255);
+  box-sizing: content-box;
+}
+
+.units__view-port {
+  margin: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+/* .lorem-text {
+  color: hotpink;
+  font-size: 42px;
+} */
+
+/* element, [atribute], #, . */
+
+/* element {
+
+} */
+
+/* [atributo] {
+
+} */
+
+/* # {
+
+} */
+
+/* .  {
+
+} */
