@@ -1,9 +1,10 @@
+# Módulo de Maquetado - 26JS Kodemia 🖥️
 
-# Módulo de Maquetado - 26JS Kodemia  🖥️
+Contenido:
 
-Contenido: 
+Sesión 1 - Introducción a HTML 🤓
+Sesión 1 - Introducción a CSS 🤓
 
-Sesión 1 - Introducción a HTML 🤓 
 ## Recursos adicionales
 
 Para complementar lo aprendido en las sesiones, puedes revisar los siguientes recursos:
