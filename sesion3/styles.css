@@ -1,0 +1,156 @@
+h1,
+p,
+span {
+  color: hotpink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Agrupamiento de selectores */
+
+.title__span--green {
+  color: green;
+  font-size: 200%;
+}
+
+.title__span {
+  font-size: 300%;
+  /* por herencia recibe el color rosita */
+}
+
+/* Selector hijo */
+
+.specific-selectors__container > .specific-selectors__list > li#xolos {
+  color: rgb(99, 1, 1);
+  font-weight: bold;
+}
+
+/* Selector adyacente + */
+
+/* #xolos + .team-america__li {
+  color: rgb(88, 101, 18);
+  font-weight: bold;
+} */
+
+/* #teams-list > .team-futbol__li {
+  font-weight: bold;
+  color: green;
+} */
+
+#teams-list > li.team-futbol__li {
+  color: rgb(111, 22, 104);
+  font-weight: bold;
+}
+/* 
+li {
+  list-style: none;
+} */
+
+#music-types li {
+  list-style: none;
+}
+
+/* selector hermano  ~  */
+
+.random-text_paragraph ~ * {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 900;
+  color: rgb(27, 61, 92);
+}
+
+.pseudo-selectors__button {
+  width: 180px;
+  height: 45px;
+  padding: 10px;
+  border-style: none;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.pseudo-selectors__button:active {
+  background-color: hotpink;
+  font-weight: bold;
+}
+
+.pseudo-selectors__button--hover {
+  width: 180px;
+  height: 45px;
+  padding: 10px;
+  margin: 10px;
+  border-style: none;
+  background-color: green;
+  border-radius: 15px;
+}
+
+.pseudo-selectors__button--hover:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  /* width: 190px;
+  height: 60px; */
+}
+
+.pseudo-selectors__button--hover:active {
+  background-color: purple;
+  color: yellow;
+  border: 2px dotted rgb(237, 9, 9);
+}
+
+/* first child */
+
+.holidays__list :first-child {
+  color: blueviolet;
+  font-size: 200%;
+}
+
+.salad__item:first-child {
+  color: green;
+}
+
+/* not */
+
+.songs__list > li:not(.hit) {
+  color: gray;
+}
+
+.hit {
+  color: green;
+  font-weight: bold;
+}
+
+/* visited */
+
+#link-kodemia:visited {
+  color: green;
+}
+
+#link-kodemia:hover {
+  color: rgb(128, 0, 0);
+}
+
+/* :last-child */
+
+.salad__item:last-child {
+  color: rgb(130, 130, 0);
+}
+
+/* Pseudo elementos */
+
+.promo__text::before {
+  content: "Ofertaza de Buen fin! ";
+  color: red;
+  font-weight: bold;
+}
+
+.promo__text--after::after {
+  content: "Menos Huggies*";
+  color: gray;
+  font-size: 8px;
+}
+
+.first__p::first-letter {
+  color: gray;
+  font: 200%;
+  font-style: italic;
+}
