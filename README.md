@@ -3,7 +3,8 @@
 Contenido:
 
 Sesión 1 - Introducción a HTML 🤓
-Sesión 1 - Introducción a CSS 🤓
+Sesión 2 - Introducción a CSS 🤓
+Sesión 3 - Selectores avanzados 🤓
 
 ## Recursos adicionales
 
@@ -16,3 +17,7 @@ https://developer.mozilla.org/es/docs/Web/HTML
 #### W3Schools
 
 Tutorial de HTML en: https://www.w3schools.com/html/
+
+#### Frontend Mentor
+
+Para prácticas de Frontend: https://www.frontendmentor.io/
