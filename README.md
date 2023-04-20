@@ -3,7 +3,9 @@
 Contenido:
 
 Sesión 1 - Introducción a HTML 🤓
+
 Sesión 2 - Introducción a CSS 🤓
+
 Sesión 3 - Selectores avanzados 🤓
 
 ## Recursos adicionales
