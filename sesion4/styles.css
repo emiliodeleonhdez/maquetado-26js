@@ -1,0 +1,53 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.position__container > .position__box {
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.position__box--yellow {
+  background-color: yellow;
+  position: static;
+  top: 20px;
+}
+
+/* Relativo a su posición original */
+.position__box--green {
+  background-color: green;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+/* Relativo al viewport */
+.position__box--blue {
+  background-color: blue;
+  position: fixed;
+  left: 50%;
+  top: 60px;
+}
+
+.position__box--red {
+  background-color: red;
+  position: sticky;
+  top: 0px;
+}
+
+.position__box--purple {
+  background-color: purple;
+  position: absolute;
+  bottom: 60px;
+  left: 20%;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  color: white;
+}

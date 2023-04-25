@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.snow__bg {
+  filter: blur(8px);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .shop__navigation {
+  z-index: 1;
+  position: absolute;
+} */
+
+.shop__navigation {
+  position: sticky;
+  top: 20px;
+  z-index: 1;
+}
+
+.shop__navigation:hover {
+  animation-name: shop__navigation--animitaion;
+  animation-duration: 3s;
+}
+
+@keyframes shop__navigation--animitaion {
+  0% {
+    color: hotpink;
+  }
+  25% {
+    color: yellowgreen;
+  }
+}
+
+.support__button--fixed {
+  position: fixed;
+  left: 85%;
+  top: 90%;
+  width: 144px;
+  height: 42px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.support__button--fixed:hover {
+  background-color: rgb(166, 71, 255);
+  cursor: pointer;
+  animation-name: suppot__button--animated;
+  animation-duration: 1s;
+}
+
+@keyframes suppot__button--animated {
+  0% {
+    background-color: blue;
+    width: 200px;
+    height: 60px;
+  }
+  5% {
+    width: 144px;
+    height: 42px;
+    color: aqua;
+    font-weight: bold;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+
+.banners_discount-20 {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  z-index: 2;
+  color: fuchsia;
+  transform: rotate(334deg);
+}
+
+.banners_discount-20:hover {
+  animation-name: discount;
+  animation-duration: 5s;
+}
+
+@keyframes discount {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+}
