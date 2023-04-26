@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header__menu {
+    border-bottom: 2px solid black;
+    height: 45px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.menu__list > .menu__item {
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.menu__item:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.burguer__button {
+    width: 18px;
+    height: 18px;
+    /* block */
+}
+
+.kodemia__logo,
+.menu__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.kodemia__logo {
+    height: 24px;
+}
+
+.main__container {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.main__title {
+    position: relative;
+    left: 20%;
+    top: 15%;
+    font-weight: 700;
+}
+
+.main__title:hover{
+    animation-name: kodemia;
+    animation-duration: 15s;
+}
+
+@keyframes kodemia {
+    0%{
+        color: blue;
+    }
+    10%{
+        color: rgb(68, 7, 142);
+    }
+    20%{
+        color: rgb(97, 0, 92);
+    }
+    30%{
+        color: rgb(30, 30, 200);
+    }
+    50%{
+        color: rgb(170, 160, 12);
+    }
+    60%{
+        color: rgb(109, 200, 30);
+    }
+
+    80%{
+        color: rgb(55, 55, 171);
+    }
+    100%{
+        color: rgb(90, 37, 112);
+    }
+}
+
+/* 0px - 768px
+No se muestra el menu "normal" */
+
+
+/* ES DECIR 
+
+DE UN TELEFONO A UNA TABLET */
+
+@media only screen and (max-width:768px){
+   .menu__list {
+       display: none;
+   }
+   .main__title {
+       font-size: 20px;
+   }
+}
+
+/* Desde un telefeno de "media gama" */
+
+@media only screen and (min-width: 769px) {
+    .menu__list > .menu__item {
+        font-size: 22px;
+    }  
+    .burguer__button {
+        display: none;
+    }
+    .main__title {
+        font-size: 25px;
+    }
+}
+
+/* 0PX - 768PX
+769PX - 1200PX
+1200PX - ..... */
+
+/* BREAK POINT */
+
+@media only screen and (min-width: 1200px){
+    .header__menu {
+        height: 50px;
+    }
+    .kodemia__logo {
+        height: 30px;
+    }
+    .menu__list > .menu__item {
+        font-size: 26px;
+    } 
+    .main__title {
+        font-size: 75px;
+    }
+}

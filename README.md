@@ -10,6 +10,8 @@ Sesión 3 - Selectores avanzados 🤓
 
 Sesión 4 - Posicionamiento, animaciones y transiciones 🤓
 
+Sesión 5 - Media queries y responsividad 🤓
+
 ## Recursos adicionales
 
 Para complementar lo aprendido en las sesiones, puedes revisar los siguientes recursos:
