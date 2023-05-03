@@ -1,0 +1,40 @@
+@import "vars";
+
+@mixin flex__standard-box($box-color, $border-px, $box-border-style, $box-border-color) {
+    width: 90px;
+    height: 90px;
+    border: $border-px $box-border-style $box-border-color;
+    background-color: $box-color;
+    margin: 10px;
+}
+
+.main__container {
+    font-family: $primary-font;
+    .main__container-item {
+        color: $primary-color;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+}
+
+.flex__container {
+    display: flex;
+    justify-content: center;
+    .flex__box {
+        width: 90px;
+        height: 90px;
+        border: 2px solid $primary-color;
+        background-color: $primary-bg;
+        margin: 10px;
+    }
+}
+
+// .demo__box{
+//     @include flex__standard-box($box-color:hotpink, $box-width: 100px, $box-border: 5px, $box-border-style: dotted, $box-border-color: $danger-color);
+// }
+
+.second__box {
+    @include flex__standard-box($box-color: blue, $border-px: 5px, $box-border-style: solid, $box-border-color: red);
+}
