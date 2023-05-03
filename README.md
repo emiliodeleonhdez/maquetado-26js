@@ -10,22 +10,24 @@ Sesión 3 - Selectores avanzados 🤓
 
 Sesión 4 - Posicionamiento, animaciones y transiciones 🤓
 
-    Sesión 5 - Media queries y responsividad 🤓
+Sesión 5 - Media queries y responsividad 🤓
 
-    Sesión 6 - Flexbox 🤓
+Sesión 6 - Flexbox 🤓
 
-    ## Recursos adicionales
+Sesión 7 - Saas y los pre procesadores css 🤓
 
-    Para complementar lo aprendido en las sesiones, puedes revisar los siguientes recursos:
+## Recursos adicionales
 
-    #### Documentación oficial de HTML:
+Para complementar lo aprendido en las sesiones, puedes revisar los siguientes recursos:
 
-    https://developer.mozilla.org/es/docs/Web/HTML
+#### Documentación oficial de HTML:
 
-    #### W3Schools
+https://developer.mozilla.org/es/docs/Web/HTML
 
-    Tutorial de HTML en: https://www.w3schools.com/html/
+#### W3Schools
 
-    #### Frontend Mentor
+Tutorial de HTML en: https://www.w3schools.com/html/
+
+#### Frontend Mentor
 
 Para prácticas de Frontend: https://www.frontendmentor.io/
