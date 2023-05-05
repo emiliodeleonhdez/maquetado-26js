@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  font-size: 18px;
+  color: white;
+}
+
+.promo__container {
+  background: #414cfb;
+  background: linear-gradient(310deg, #414cfb 0%, #fb41ec 50%, #444cfb 100%);
+  text-align: center;
+  color: white;
+  height: 45px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.header__container {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+.header__container .nav__container {
+  padding-top: 10px;
+}
+
+.header__container .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.header__container .menu__list .menu__logo {
+  height: 30px;
+}
+
+.header__container .menu__list .menu__item:hover {
+  color: aqua;
+}
+
+.header__container .menu__list .menu__item .menu__item-button {
+  width: 115px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.header__container .menu__list .menu__item .menu__item-button--aqua {
+  border: 1px solid aqua;
+}
+
+.main__container {
+  background-color: black;
+  height: 100vh;
+}
+
+.main__container .landing__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__container .landing__container > * {
+  margin: 10px;
+}
+
+.main__container .landing__container .landing__title {
+  font-size: 42px;
+  font-weight: bold;
+  color: purple;
+}
+
+.main__container .landing__container .landing__buttons .landing__button-item {
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 769px) {
+  .menu__item {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .menu__item-button-burguer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
