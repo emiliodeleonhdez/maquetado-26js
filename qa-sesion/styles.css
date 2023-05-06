@@ -1,0 +1,108 @@
+body {
+  background-color: aqua;
+}
+
+.practive__button {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.practive__button--negative {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.practive__button--big {
+  width: 228px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.piano__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.piano__container .piano__card {
+  width: 90px;
+  height: 110px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: black;
+  }
+  h1 {
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: purple;
+  }
+  h1 {
+    color: aqua;
+  }
+  .piano__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: orange;
+  }
+  h1 {
+    color: brown;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+  h1 {
+    color: blue;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

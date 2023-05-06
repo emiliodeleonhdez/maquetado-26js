@@ -1,0 +1,91 @@
+body {
+    background-color: aqua;
+}
+
+@mixin practice_button-style ($bg-button: black, $font-color: white, $button-width: 129px) {
+    width: $button-width;
+    height: 32px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: $bg-button;
+    color: $font-color;
+    // Aquí pongo lo quiero
+}
+
+.practive__button {
+    @include practice_button-style()
+}
+
+.practive__button--negative {
+    @include practice_button-style($bg-button: white, $font-color: black)
+}
+
+.practive__button--big {
+    @include practice_button-style($button-width: 228px)
+}
+
+.piano__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .piano__card {
+        width: 90px;
+        height: 110px;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: aqua;
+    }
+}
+
+
+// 0px - 600px
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: hotpink;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        background-color: black;
+    }
+    h1 {
+        color: white;
+    }
+}
+
+//Tablet 
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: purple;
+    }
+    h1 {
+        color: aqua;
+    }
+    .piano__container {
+        flex-direction: row ;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: orange;
+    }
+    h1 {
+        color: brown;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: white;
+    }
+    h1 {
+        color: blue;
+    }
+}
