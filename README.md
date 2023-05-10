@@ -16,6 +16,8 @@ Sesión 6 - Flexbox 🤓
 
 Sesión 7 - Saas y los pre procesadores css 🤓
 
+Sesión 10 - Introducción a bootstrap 🤓
+
 ## Recursos adicionales
 
 Para complementar lo aprendido en las sesiones, puedes revisar los siguientes recursos:
@@ -36,4 +38,6 @@ Para prácticas de Frontend: https://www.frontendmentor.io/
 
 CSS with superpowers: https://sass-lang.com/
 
+#### Documentación oficial de Bootstrap
 
+Bootstrap: https://getbootstrap.com/
